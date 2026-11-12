@@ -60,7 +60,7 @@ public class AppService {
     private static final String HY2_PORT = env("HY2_PORT", "24582");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
-    private static final String REALITY_PORT = env("REALITY_PORT", "24582");
+    private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "saas.sin.fan");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "");
