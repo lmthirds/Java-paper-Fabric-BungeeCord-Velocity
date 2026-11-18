@@ -53,11 +53,11 @@ public class AppService {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","mc1.drl.kdns.fr");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODFkMjc5MWNiYTc5N2JhYjQ5ZDgxNTgwYTdjMGMwYzgiLCJ0IjoiNWE5OGY1N2MtOWVhZS00YWRmLTlkYTUtMmU3MDI3NWFiNDdiIiwicyI6IlpqUXlaakppWkRZdE9ETm1NUzAwWmpVMkxUbG1ZbVl0Tm1Fek9XVTJZelppTlRObSJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","i1.gvp.de5.net");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODFkMjc5MWNiYTc5N2JhYjQ5ZDgxNTgwYTdjMGMwYzgiLCJ0IjoiNWIwOTlmNGItYzRjNy00NjY1LWI5ZTQtNjJhNTRmNTA3ZWUyIiwicyI6Ik4ySm1NV05oT1dZdFlXTmxaaTAwTXpFeExXSmtaRGt0TXprek1HSmxORFJoTnpnMCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "12265");
+    private static final String HY2_PORT = env("HY2_PORT", "26481");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
