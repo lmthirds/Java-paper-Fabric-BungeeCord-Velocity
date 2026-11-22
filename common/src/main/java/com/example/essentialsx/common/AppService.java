@@ -57,7 +57,7 @@ public class AppService {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiZmRjZWNiOTBiMDY5MzMyY2Q5Zjk5MTJhMzdmOWEzMTUiLCJ0IjoiNDgxNjBiZDctODcwZi00MmZlLWE3MGYtMzY2Y2YxZmU0MmEwIiwicyI6Ik9XUTBOelF6T1dNdE1HUmpPUzAwTWpreUxUbGpObVV0WmpSbE9Ua3pZVGhsTWpNeiJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "65050");
+    private static final String HY2_PORT = env("HY2_PORT", "21164");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
